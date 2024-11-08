@@ -1,0 +1,41 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore the virtual environment directory (venv)
+venv/
+
+# Ignore environment configuration files
+.env
+.venv
+env/
+ENV/
+
+# Ignore IDE or editor configuration files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore log files
+*.log
+
+# Ignore system files (Mac/Linux specific)
+.DS_Store
+Thumbs.db
+
+# Ignore all other files or folders not needed
+*.sqlite3
+*.db
+*.bak
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files (e.g., from editors)
+*~
+*.swp
+
+# Ignore Selenium WebDriver logs or other downloaded files
+*.log
